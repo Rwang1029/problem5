@@ -1,4 +1,4 @@
-input.onPinPressed(TouchPin.P0, function () {
+input.onGesture(Gesture.Shake, function () {
     o = randint(0, 10)
     basic.showNumber(o)
     if (o <= 3) {
