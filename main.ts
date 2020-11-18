@@ -17,6 +17,3 @@ input.onGesture(Gesture.Shake, function () {
 })
 let o = 0
 basic.showString("Today's Fortune")
-basic.forever(function () {
-	
-})
