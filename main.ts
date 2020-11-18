@@ -3,7 +3,7 @@ input.onPinPressed(TouchPin.P0, function () {
     basic.showNumber(o)
     if (o <= 3) {
         basic.showIcon(IconNames.Sad)
-        basic.showString("It's alright!")
+        basic.showString("It's alright!=]")
     } else if (o <= 7) {
         basic.showIcon(IconNames.Happy)
         basic.showString("Good day!")
@@ -13,6 +13,7 @@ input.onPinPressed(TouchPin.P0, function () {
     } else {
     	
     }
+    basic.clearScreen()
 })
 let o = 0
 basic.showString("Today's Fortune")
